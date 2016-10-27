@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+#
+import csv
+
+def r1(fname):
+  with open(fname, 'r') as csvfile:
+    rdr = csv.reader(csvfile)
+    i = j = 0
+    for row in rdr:
+      if i > 0:
+        # At this point, row[] is an array of 3 items
+        emotion_type = int(row[0])
+        if emotion_type == 3 or emotion_type == 4:
+          t2 = emotion_type - 3
+          # Tagged happy or sad
+          if row[2] == 'Training':
+            # print (', '.join(row))
+            lstr = row[1].split(" ")
+            iarr = [int(lstr[i]) for i in range(len(lstr))]
+            scaled = [float(iarr[i]) / 255.0 for i in range(len(iarr))]
+            sarr = ["{0:.3f}".format(scaled[i]) for i in range(len(scaled))]
+            print((",".join(sarr)) + "," + str(t2))
+      i = i + 1
+
+r1('fer2013.csv')
