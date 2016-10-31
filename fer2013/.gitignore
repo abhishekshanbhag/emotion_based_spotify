@@ -1,5 +1,5 @@
-.gitignore~
-0-README.txt~
+*~
+\#*\#
 fer2013.csv
 happy-sad-privtest.csv
 happy-sad-pubtest.csv
