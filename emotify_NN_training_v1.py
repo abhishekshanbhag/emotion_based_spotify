@@ -7,8 +7,8 @@ seed = 7
 numpy.random.seed(seed)
 
 # load pima indians dataset
-dataset = numpy.loadtxt("happy-sad-training-1.csv", delimiter=",")
-testset = numpy.loadtxt("happy-sad-privtest-1.csv", delimiter=",")
+dataset = numpy.loadtxt("fer2013/happy-sad-training.csv", delimiter=",")
+testset = numpy.loadtxt("fer2013/happy-sad-privtest.csv", delimiter=",")
 # split into input (X) and output (Y) variables
 X = dataset[:,0:2304]
 Y = dataset[:,2304]
@@ -26,7 +26,7 @@ model.add(Dense(1, init='normal', activation='sigmoid'))
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # Fit the model
-model.fit(X, Y, nb_epoch=300, batch_size=10)
+model.fit(X, Y, nb_epoch=300, batch_size=200)
 
 # evaluate the model
 scores = model.evaluate(X, Y)
