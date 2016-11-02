@@ -93,7 +93,7 @@ model.add(Dense(1, init='normal', activation='sigmoid'))
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # Fit the model
-model.fit(X, Y, nb_epoch=30, batch_size=100)
+model.fit(X, Y, nb_epoch=300, batch_size=100)
 
 # evaluate the model
 scores = model.evaluate(X, Y)
@@ -110,6 +110,8 @@ for i in range(10):
   print "pubtest face # ", i, " prediction = ", Yp[i]
 
 """
+
+----
  20161101.1253:
   I (Robert) got it to work once (after about 10 failures). Output
 looks like this:
@@ -148,5 +150,44 @@ Loss: 0.56, Accuracy: 72.57%
 ('pubtest face # ', 7, ' prediction = ', array([ 0.58012635], dtype=float32))
 ('pubtest face # ', 8, ' prediction = ', array([ 0.58562624], dtype=float32))
 ('pubtest face # ', 9, ' prediction = ', array([ 0.15237312], dtype=float32))
+
+----
+ 20161101.1400
+ Robert and Ravi discovered that it works reliably if we increase the
+batch size to 200.
+
+----
+ 20161101.2030 
+
+Training for only 30 epoch, predictions for the first 10 faces in pubtest are:
+
+pubtest face #  0  prediction =  [ 0.72613651]
+pubtest face #  1  prediction =  [ 0.13108855]
+pubtest face #  2  prediction =  [ 0.11668682]
+pubtest face #  3  prediction =  [ 0.0327374]
+pubtest face #  4  prediction =  [ 0.5686034]
+pubtest face #  5  prediction =  [ 0.47724572]
+pubtest face #  6  prediction =  [ 0.36131418]
+pubtest face #  7  prediction =  [ 0.3753663]
+pubtest face #  8  prediction =  [ 0.49196675]
+pubtest face #  9  prediction =  [ 0.10472143]
+
+----
+ 20161101.2102
+
+Training for 300 epochs. predictions for the first 10 faces are:
+
+pubtest face #  0  prediction =  [ 0.91222274]
+pubtest face #  1  prediction =  [ 0.00551574]
+pubtest face #  2  prediction =  [ 0.00166388]
+pubtest face #  3  prediction =  [ 0.11604741]
+pubtest face #  4  prediction =  [ 0.98110861]
+pubtest face #  5  prediction =  [ 0.17881516]
+pubtest face #  6  prediction =  [ 0.42970991]
+pubtest face #  7  prediction =  [ 0.50898677]
+pubtest face #  8  prediction =  [ 0.47499645]
+pubtest face #  9  prediction =  [ 0.06658801]
+
+----
 
 """
