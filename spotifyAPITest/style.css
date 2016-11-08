@@ -1,0 +1,100 @@
+body {
+    padding: 20px;
+}
+div .navigateBar{
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    background:linear-gradient(to right, #521b37, #2f0c4e );
+}
+div .navigateBar img{
+    height: 59px;
+    margin: 0px 0px 6px -40px;
+}
+div .navigateBar ul{
+    height: 60px;
+}
+div.navigateBar li{
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+}
+div.navigateBar a{
+    color: white;
+   text-decoration: none;
+}
+div.navigateBar li:hover, li a:hover{
+    cursor: pointer;
+    color: #9BF0E1;
+}
+
+div.navigateBar li:nth-child(2){
+    margin-left: 750px;
+    border-right:solid 1px white;
+}
+div.navigateBar li:nth-child(3){
+    padding-left: 30px;
+}
+/*div.navigateBar li:nth-child(2) img{*/
+    /*width: 59px;*/
+    /*height: 59px;*/
+/*}*/
+#search-form,
+.form-control {
+    width: 1200px;
+    height: 50px;
+    margin-bottom: 20px;
+    float: left;
+    display: block;
+}
+#query{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 100%;
+    line-height: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 50px;
+
+}
+.btn-primary{
+    width: 75px;
+    height: 40px;
+    margin-top: 5px;
+    /*background: url("search.png");*/
+    background-size: 50px 50px;
+    border-radius: 10%;
+    border: hidden;
+}
+.btn-primary:hover{
+    cursor: pointer;
+}
+/*.cover {*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+    /*display: inline-block;*/
+    /*background-size: cover;*/
+/*}*/
+
+/*.cover:hover {*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.cover.playing {*/
+    /*border: 5px solid #e45343;*/
+/*}*/
+
+.album{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+}
+.album img{
+    width: 300px;
+    height: 300px;
+    /*display: block;*/
+}
