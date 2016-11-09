@@ -36,6 +36,53 @@
             </ul>
         </div>
     </script>
+
+<img id="logo2" src="./Spotifylogo.png">
+<video id="video" width="640" height="480" autoplay></video>
+<button id="snap">Snap Photo</button>
+<canvas id="canvas" width="640" height="480"></canvas>
+<script type="text/javascript">
+// Grab elements, create settings, etc.
+var video = document.getElementById('video');
+
+// Get access to the camera!
+if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    // Not adding `{ audio: true }` since we only want video now
+    navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+        video.src = window.URL.createObjectURL(stream);
+        video.play();
+    });
+}
+
+// Elements for taking the snapshot
+var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
+var video = document.getElementById('video');
+var slogo = document.getElementById('logo2');
+
+// Trigger photo take
+document.getElementById("snap").addEventListener("click", function() {
+	context.drawImage(video, 0, 0, 48,48);
+
+    var dataURL = canvas.toDataURL();
+
+    // console.info(dataURL.length); // we got 12518, and 48*48*4*8/6 = 12288
+
+    // Use dataURL as a field in a POST form submission
+    // ap.js needs to recieve the form submission via a new API, e.g.
+    // adding app.get('/imagequery', ...) { ... } alongside the existing
+    // /login, /callback, etc.
+
+    //create img
+    var img = document.createElement('img');
+    img.setAttribute('src', dataURL);
+
+    //append img in container div
+    document.getElementById('loggedin').appendChild(img);
+});
+
+</script>
+
         <form id="search-form">
             <input type="text" id="query" value="" class="form-control" />
             <input type="submit" id="search" class="btn btn-primary" value="Search" />
