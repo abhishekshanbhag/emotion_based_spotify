@@ -40,6 +40,7 @@ app.use(express.static(__dirname + '/public'))
    .use(cookieParser());
 
 app.get('/login', function(req, res) {
+  console.log("got /login\n");
 
   var state = generateRandomString(16);
   res.cookie(stateKey, state);
@@ -58,6 +59,7 @@ app.get('/login', function(req, res) {
 
 
 app.get('/callback', function(req, res) {
+  console.log("got /callback\n");
 
   // your application requests refresh and access tokens
   // after checking the state parameter
@@ -140,6 +142,7 @@ app.get('/callback', function(req, res) {
 // });
 
 app.get('/refresh_token', function(req, res) {
+  console.log("got /refresh_token\n");
 
   // requesting access token from refresh token
   var refresh_token = req.query.refresh_token;
@@ -161,6 +164,11 @@ app.get('/refresh_token', function(req, res) {
       });
     }
   });
+});
+
+app.get('/imagequery', function(req, res) {
+  var img = req.query.img;
+  console.log("got /imagequery with data: '" + img + "'\n");
 });
 
 console.log('Listening on 8888');

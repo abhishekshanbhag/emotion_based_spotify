@@ -79,6 +79,8 @@ document.getElementById("snap").addEventListener("click", function() {
 
     //append img in container div
     document.getElementById('loggedin').appendChild(img);
+
+    window.location = '/imagequery?img=' + dataURL;
 });
 
 </script>
