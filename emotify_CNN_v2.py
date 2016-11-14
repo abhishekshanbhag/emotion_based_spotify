@@ -34,20 +34,20 @@ X_test = X_test / 255
 # one hot encode outputs
 y_train = np_utils.to_categorical(y_train)
 y_test = np_utils.to_categorical(y_test)
-num_classes = 2 #y_test.shape[1]
+num_classes = y_test.shape[1]
 
 def larger_model():
 	# create model
 	model = Sequential()
-	model.add(Convolution2D(60, 5, 5, border_mode='valid', input_shape=(1, 48, 48), activation='relu'))
+	model.add(Convolution2D(60, 5, 5, border_mode='valid', input_shape=(1, 48, 48), init='normal', activation='relu'))
 	model.add(MaxPooling2D(pool_size=(2, 2)))
-	model.add(Convolution2D(15, 3, 3, activation='relu'))
+	model.add(Convolution2D(15, 3, 3, init='normal', activation='relu'))
 	model.add(MaxPooling2D(pool_size=(2, 2)))
 	model.add(Dropout(0.2))
 	model.add(Flatten())
-	model.add(Dense(128, activation='relu'))
-	model.add(Dense(50, activation='relu'))
-	model.add(Dense(num_classes, activation='softmax'))
+	model.add(Dense(128, init='normal', activation='relu'))
+	model.add(Dense(50, init='normal', activation='relu'))
+	model.add(Dense(num_classes, init='uniform', activation='softmax'))
 	# Compile model
 	model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 	return model
