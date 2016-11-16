@@ -1,7 +1,5 @@
 // find template and compile it
-// if (document.getElementById('results-template') != null){
-    var templateSource = document.getElementById('results-template').innerHTML;
-// }
+var templateSource = document.getElementById('results-template').innerHTML;
 var template = Handlebars.compile(templateSource),
     resultsPlaceholder = document.getElementById('results'),
     playingCssClass = 'playing',
