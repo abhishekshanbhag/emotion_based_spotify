@@ -1,4 +1,6 @@
 import numpy
+import matplotlib.image as mpimg
+import matplotlib.pyplot as plt
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.models import model_from_json
@@ -32,16 +34,26 @@ bucket = aws_connection.get_bucket('ec601imagebucket')
 for file_key in bucket.list():
     print file_key.name
 
-file_key.get_contents_to_filename('test_images.csv')
+file_key.get_contents_to_filename('test_image.jpeg')
 
-testset = numpy.loadtxt("test_images.csv", delimiter=",")
-X_test = testset[:,0:2304]
-y_test = testset[:,2304]
+def rgb2gray(rgb):
+    return numpy.dot(rgb[...,:3],[0.299,0.587,0.114])
 
-X_test = X_test.reshape(X_test.shape[0], 1, 48, 48).astype('float32')
+img = mpimg.imread('test_image.jpeg')
+gray_out = rgb2gray(img)
+plt.imshow(gray_out,cmap = plt.get_cmap('gray'))
+plt.show()
+
+'''
+testset = numpy.loadtxt("test_image.csv", delimiter=",")
+X_test = testset[2,0:2304]
+y_test = testset[2,2304]
+
+# print(X_test.shape)
+X_test = X_test.reshape(1,1,48, 48).astype('float32')
 X_test = X_test / 255
 
-y_test = np_utils.to_categorical(y_test)
+# y_test = np_utils.to_categorical(y_test)
 # Y_test = testset[:,2304]
 
 
@@ -52,14 +64,16 @@ json_file.close()
 loaded_model = model_from_json(loaded_model_json)
 # load weights into new model
 loaded_model.load_weights("model.h5")
-print("Loaded model from disk")
+# print("Loaded model from disk")
 
 # evaluate loaded model on test data
 loaded_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-# label_predict = loaded_model.predict(X_test)
+label_predict = loaded_model.predict(X_test)
+label_predict = numpy.argmax(label_predict)
 # image_num = 2;
-# print(label_predict[3])
+print(label_predict)
 # rounded_predict = [round(label_predict) for x in label_predict]
 # print(round(label_predict[3]))
-score = loaded_model.evaluate(X_test, y_test, verbose=0)
-print "%s: %.2f%%" % (loaded_model.metrics_names[1], score[1]*100)
+# score = loaded_model.evaluate(X_test, y_test, verbose=0)
+# print "%s: %.2f%%" % (loaded_model.metrics_names[1], score[1]*100)
+'''
