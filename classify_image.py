@@ -1,4 +1,5 @@
 import numpy
+import csv
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.models import model_from_json
@@ -15,19 +16,15 @@ from boto.s3.connection import S3Connection
 seed = 7
 numpy.random.seed(seed)
 
+aws_cred = []
+
 # Download image from Amazon s3 bucket
-import sys
 with open('rootkey_2.csv',"r") as infile:
-    text = infile.readlines()
-    infile.close()
+    lines = csv.reader(infile,delimiter='=')
+    for row in lines:
+        aws_cred.append(row[1])
 
-AWS_KEY = text[0].strip()
-AWS_SECRET = text[1].strip()
-
-AWS_KEY = AWS_KEY[15:]
-AWS_SECRET = AWS_SECRET[13:]
-
-aws_connection = S3Connection(AWS_KEY, AWS_SECRET)
+aws_connection = S3Connection(aws_cred[0], aws_cred[1])
 bucket = aws_connection.get_bucket('ec601imagebucket')
 for file_key in bucket.list():
     print file_key.name
