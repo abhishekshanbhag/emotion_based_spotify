@@ -169,6 +169,7 @@ app.get('/refresh_token', function(req, res) {
 app.get('/imagequery', function(req, res) {
   var img = req.query.img;
   console.log("got /imagequery with data: '" + img + "'\n");
+  res.redirect(' /#');
 });
 
 console.log('Listening on 8888');
