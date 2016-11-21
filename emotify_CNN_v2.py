@@ -35,6 +35,7 @@ X_test = X_test / 255
 y_train = np_utils.to_categorical(y_train)
 y_test = np_utils.to_categorical(y_test)
 num_classes = y_test.shape[1]
+# print (num_classes)
 
 def larger_model():
 	# create model
@@ -43,9 +44,10 @@ def larger_model():
 	model.add(MaxPooling2D(pool_size=(2, 2)))
 	model.add(Convolution2D(15, 3, 3, init='normal', activation='relu'))
 	model.add(MaxPooling2D(pool_size=(2, 2)))
-	model.add(Dropout(0.2))
+	model.add(Dropout(0.45))
 	model.add(Flatten())
 	model.add(Dense(128, init='normal', activation='relu'))
+	model.add(Dropout(0.45))
 	model.add(Dense(50, init='normal', activation='relu'))
 	model.add(Dense(num_classes, init='uniform', activation='softmax'))
 	# Compile model
