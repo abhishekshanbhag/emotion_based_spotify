@@ -19,7 +19,8 @@ var context = canvas.getContext('2d');
 
 // Trigger photo take
 document.getElementById("snap").addEventListener("click", function() {
-    context.drawImage(video, 0, 0, 48, 48);
+    // context.drawImage(video, 200, 20, 240, 360,0,0,48,48);
+    context.drawImage(video, 0, 0,48,48);
     mediaStream.stop();
     // video.style.display='';
     document.getElementById('videoContainer').style.display="none";
@@ -46,7 +47,7 @@ document.getElementById("upload").addEventListener('click',function () {
     }
     var fd = new FormData();
 
-    fd.append('userID',filename);
+    fd.append('userID',filename+'.jpeg');
     fd.append('file',blobData);
     $.ajax({
         url:'http://localhost:8888/upload',
@@ -59,4 +60,38 @@ document.getElementById("upload").addEventListener('click',function () {
         }
     });
 
+});
+
+document.getElementById("pyTest").addEventListener('click',function(){
+    $.ajax({
+        url:'http://localhost:8888/runpy',
+        success: function(res) {
+            console.log(res);
+            var templateSource = document.getElementById('results-template').innerHTML;
+            var template = Handlebars.compile(templateSource);
+            $.ajax({
+                url: 'https://api.spotify.com/v1/search',
+                data: {
+                    q: res,
+                    type: 'playlist'
+                },
+                success: function (response) {
+                    document.getElementById('results').innerHTML = template(response);
+                }
+            });
+            var randTrack = parseInt(20*Math.random());
+            console.log(randTrack);
+            $.ajax({
+                url: 'https://api.spotify.com/v1/search',
+                data: {
+                    q: res,
+                    type: 'track'
+                },
+                success: function (response) {
+                    var audioObject = new Audio(response.tracks.items[randTrack].preview_url);
+                    audioObject.play();
+                }
+            });
+        }
+    });
 });

@@ -29,6 +29,15 @@ var searchAlbums = function(query) {
             document.getElementById('results').innerHTML = template(response);
         }
     });
+    // $.ajax({
+    //     url: 'https://api.spotify.com/v1/browse/categories/'+query+'/playlists',
+    //     headers: { 'Authorization': 'Bearer ' + document.cookie.slice(13) },
+    //
+    //     success: function(response) {
+    //         console.log('get category');
+    //         document.getElementById('results').innerHTML = template(response);
+    //     }
+    // });
 };
 //
 //  results.addEventListener('click', function(e) {

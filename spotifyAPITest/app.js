@@ -15,13 +15,15 @@ var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var bodyParser = require('body-parser');
 var multer = require('multer');
+var PythonShell = require('python-shell');
+var morgan = require('morgan');
+
 const storage = multer.memoryStorage();
 const upload = multer({storage:storage});
 
 var client_id = '566cac34a93e413abbdfbb7e549f02df'; // Your client id
 var client_secret = '830cdce64ade49de98b8296f23c18286'; // Your secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
-
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
@@ -40,9 +42,9 @@ var generateRandomString = function(length) {
 var stateKey = 'spotify_auth_state';
 
 var app = express();
-
-app.use(express.static(__dirname + '/public'))
-   .use(cookieParser());
+app.use(morgan('dev'));
+// app.use(express.static(__dirname + '/public'))
+app.use(cookieParser());
 // Login
 app.get('/login', function(req, res) {
 
@@ -132,7 +134,9 @@ app.post('/upload',upload.single('file'),function(req,res){
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   var s3 = new AWS.S3();
-  var bucketName = 'ec601emotify';
+  // var bucketName = 'ec601emotify';
+  var bucketName = 'ec601imagebucket';
+
   var filename = req.body.userID;
   var params = {
     Bucket: bucketName,
@@ -149,7 +153,30 @@ app.post('/upload',upload.single('file'),function(req,res){
     }
   })
 });
+// run py
+app.get('/runpy',function (req,res) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
+  var pyshell = new PythonShell('classify_image.py');
+  pyshell.stdout.on('data',function(data){
+    if (data == 0){
+      res.send('happy');
+      console.log('happy face');
+      pyshell.end(function (err) {
+        console.log('ignore');
+      });
+    }
+    if(data == 1){
+      res.send('sad');
+      console.log('sad face');
+      pyshell.end(function (err) {
+        console.log('ignore');
+      });
+    }
+
+  });
+});
 app.get('/refresh_token', function(req, res) {
 
   // requesting access token from refresh token
