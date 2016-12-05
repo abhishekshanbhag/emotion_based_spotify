@@ -1,7 +1,18 @@
+'''
+This script performs emotion classification on the photo taken by the user.  The
+script performs the following steps:
+
+    1. Download photo from Amazon S3 storage bucket
+    2. Covert colored photo to grayscale
+    3. Loads trained convolutional neural network
+    4. Performs emotion prediction
+
+'''
+
+# Load required functions and classes
 import numpy
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
-from keras.datasets import mnist
 from keras.models import Sequential
 from keras.models import model_from_json
 from keras.layers import Dense
@@ -13,6 +24,7 @@ from keras.utils import np_utils
 from keras import backend as K
 K.set_image_dim_ordering('th')
 from boto.s3.connection import S3Connection
+
 # fix random seed for reproducibility
 seed = 7
 numpy.random.seed(seed)
@@ -32,32 +44,28 @@ AWS_SECRET = AWS_SECRET[13:]
 aws_connection = S3Connection(AWS_KEY, AWS_SECRET)
 bucket = aws_connection.get_bucket('ec601imagebucket')
 for file_key in bucket.list():
-    print file_key.name
+    break
+    # print file_key.name
 
-file_key.get_contents_to_filename('test_image.jpeg')
+file_key.get_contents_to_filename('test_image.jpg')
+bucket.delete_key(file_key)
 
+# Covert photo to grayscale
 def rgb2gray(rgb):
     return numpy.dot(rgb[...,:3],[0.299,0.587,0.114])
 
-img = mpimg.imread('test_image.jpeg')
-gray_out = rgb2gray(img)
-plt.imshow(gray_out,cmap = plt.get_cmap('gray'))
-plt.show()
-
-'''
-testset = numpy.loadtxt("test_image.csv", delimiter=",")
-X_test = testset[2,0:2304]
-y_test = testset[2,2304]
-
-# print(X_test.shape)
+img = mpimg.imread('test_image.jpg')
+X_test = rgb2gray(img)
 X_test = X_test.reshape(1,1,48, 48).astype('float32')
 X_test = X_test / 255
+# plt.imshow(gray_out,cmap = plt.get_cmap('gray'))
+# plt.show()'''
+
 
 # y_test = np_utils.to_categorical(y_test)
 # Y_test = testset[:,2304]
 
-
-# load json and create model
+# Load trained convolutional neural network model (both structure and weights)
 json_file = open('model.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
@@ -69,6 +77,7 @@ loaded_model.load_weights("model.h5")
 # evaluate loaded model on test data
 loaded_model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 label_predict = loaded_model.predict(X_test)
+print(label_predict)
 label_predict = numpy.argmax(label_predict)
 # image_num = 2;
 print(label_predict)
@@ -76,4 +85,3 @@ print(label_predict)
 # print(round(label_predict[3]))
 # score = loaded_model.evaluate(X_test, y_test, verbose=0)
 # print "%s: %.2f%%" % (loaded_model.metrics_names[1], score[1]*100)
-'''
