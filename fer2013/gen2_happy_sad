@@ -2,11 +2,11 @@
 #
 import csv
 
-emo_map = (0,  # angry
+emo_map = (-1,  # angry
            -1, # disgust
            -1, # fear
-           1,  # happy
-           2,  # sad
+           0,  # happy
+           1,  # sad
            -1, # surprise
            -1) # neutral
 
