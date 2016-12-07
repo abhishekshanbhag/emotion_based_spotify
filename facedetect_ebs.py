@@ -22,6 +22,6 @@ if(len(rects)):
 else:
     roi = gray
 
-#cv2.imshow('facedetect', roi)
-#cv2.waitKey(0)
-#cv2.destroyAllWindows()
+cv2.imshow('facedetect', roi)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
