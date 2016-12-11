@@ -14,7 +14,7 @@ def detect(img, cascade):
 cascade_fn = "face_detection_files/haarcascades/haarcascade_frontalface_alt.xml"
 cascade = cv2.CascadeClassifier(cascade_fn)
 
-img = cv2.imread('')
+img = cv2.imread('face_detection_files/IMG_4311.JPG')
 #cv2.imshow('image', img)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #cv2.imshow('gray', gray)
@@ -38,8 +38,8 @@ else:
     print('face not detected. Please click from another angle of lighting.')
 roi = cv2.equalizeHist(roi)
 roi = cv2.resize(roi, (48, 48))
-#cv2.imshow('facedetect', roi)
-#cv2.waitKey(0)
+cv2.imshow('facedetect', roi)
+cv2.waitKey(0)
 
 #cv2.destroyAllWindows()
 
