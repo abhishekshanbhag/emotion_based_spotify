@@ -24,13 +24,17 @@ from keras.utils import np_utils
 from keras import backend as K
 K.set_image_dim_ordering('th')
 from boto.s3.connection import S3Connection
+from boto.s3.key import Key
+import sys
+
+if(len(sys.argv) != 2):
+	sys.exit(1)
 
 # fix random seed for reproducibility
 seed = 7
 numpy.random.seed(seed)
 
 # Download image from Amazon s3 bucket
-import sys
 with open('rootkey_2.csv',"r") as infile:
     text = infile.readlines()
     infile.close()
@@ -41,14 +45,19 @@ AWS_SECRET = text[1].strip()
 AWS_KEY = AWS_KEY[15:]
 AWS_SECRET = AWS_SECRET[13:]
 
+predict_file_key = Key()
 aws_connection = S3Connection(AWS_KEY, AWS_SECRET)
 bucket = aws_connection.get_bucket('ec601imagebucket')
 for file_key in bucket.list():
-    break
-    # print file_key.name
+    if(file_key.name.encode('utf-8') == sys.argv[1]):
+        predict_file_key = file_key
+        break
+if(predict_file_key.name == None):
+    print('No such file found')
+    sys.exit(1)
 
-file_key.get_contents_to_filename('test_image.jpg')
-bucket.delete_key(file_key)
+predict_file_key.get_contents_to_filename('test_image.jpg')
+bucket.delete_key(predict_file_key)
 
 # Covert photo to grayscale
 def rgb2gray(rgb):
@@ -56,7 +65,11 @@ def rgb2gray(rgb):
 
 img = mpimg.imread('test_image.jpg')
 X_test = rgb2gray(img)
-X_test = X_test.reshape(1,1,48, 48).astype('float32')
+try:
+	X_test = X_test.reshape(1,1,48, 48).astype('float32')
+except(ValueError):
+	print('The image should be of size 48 x 48')
+	sys.exit(1)
 X_test = X_test / 255
 # plt.imshow(gray_out,cmap = plt.get_cmap('gray'))
 # plt.show()'''
@@ -66,7 +79,11 @@ X_test = X_test / 255
 # Y_test = testset[:,2304]
 
 # Load trained convolutional neural network model (both structure and weights)
-json_file = open('model.json', 'r')
+try:
+	json_file = open('model.json', 'r')
+except(IOError):
+	print('model.json is missing')
+	sys.exit(1)
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
