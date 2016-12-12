@@ -37,10 +37,7 @@ div.navigateBar li:nth-child(2){
 div.navigateBar li:nth-child(3){
     padding-left: 30px;
 }
-/*div.navigateBar li:nth-child(2) img{*/
-    /*width: 59px;*/
-    /*height: 59px;*/
-/*}*/
+
 #search-form,
 .form-control {
     width: 1200px;
@@ -60,18 +57,41 @@ div.navigateBar li:nth-child(3){
     margin-left: 50px;
 
 }
-.btn-primary{
-    width: 75px;
+div #buttonContainer{
     height: 40px;
-    margin-top: 5px;
-    /*background: url("search.png");*/
-    background-size: 50px 50px;
-    border-radius: 10%;
-    border: hidden;
+    width: 170px;
+    margin: auto;
 }
-.btn-primary:hover{
+/*.btn{*/
+    /*width: 90px;*/
+    /*height: 40px;*/
+    /*margin-top: 5px;*/
+    /*background-size: 50px 50px;*/
+    /*border-radius: 10%;*/
+    /*border: hidden;*/
+/*}*/
+/*button #snap{*/
+    /*width: 40px;*/
+    /*height: 35px;*/
+    /*background-color: transparent;*/
+    /*padding: 0;*/
+    /*border: hidden;*/
+/*}*/
+.btn:hover{
     cursor: pointer;
 }
+
+/*.btn-primary{*/
+    /*width: 75px;*/
+    /*height: 40px;*/
+    /*margin-top: 5px;*/
+    /*background-size: 50px 50px;*/
+    /*border-radius: 10%;*/
+    /*border: hidden;*/
+/*}*/
+/*.btn-primary:hover{*/
+    /*cursor: pointer;*/
+/*}*/
 /*.cover {*/
     /*width: 300px;*/
     /*height: 300px;*/
@@ -86,15 +106,17 @@ div.navigateBar li:nth-child(3){
 /*.cover.playing {*/
     /*border: 5px solid #e45343;*/
 /*}*/
-#video
+/*#video*/
 #videoContainer{
     width: 480px;
     height: 480px;
+    margin: auto;
 }
-/*#canvas{*/
-    /*width: 48px;*/
-    /*height: 48px;*/
-/*}*/
+#canvasContainer{
+    width: 480px;
+    height: 360px;
+    margin: auto;
+}
 .album{
     width: 300px;
     height: 300px;

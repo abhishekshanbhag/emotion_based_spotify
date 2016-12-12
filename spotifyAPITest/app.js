@@ -66,6 +66,8 @@ app.get('/login', function(req, res) {
 app.get('/logout',function(req,res){
   res.clearCookie('access_token');
   res.redirect('http://localhost:63342/spotifyAPITest/public/index.html');
+  // res.redirect('http://localhost:63342/spotifyAPITest/public/index.html');
+  // res.redirect('https://www.spotify.com/us/logout');
 });
 
 app.get('/callback', function(req, res) {
@@ -133,7 +135,11 @@ app.get('/callback', function(req, res) {
 app.post('/upload',upload.single('file'),function(req,res){
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  var s3 = new AWS.S3();
+  var options = {
+    accessKeyId: 'AKIAIJ4NJ2VN73G7NVNA',
+    secretAccessKey: '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'
+  };
+  var s3 = new AWS.S3(options);
   // var bucketName = 'ec601emotify';
   var bucketName = 'ec601imagebucket';
 
@@ -153,13 +159,21 @@ app.post('/upload',upload.single('file'),function(req,res){
     }
   })
 });
-// run py
-app.get('/runpy',function (req,res) {
+// run classification py script
+app.get('/runpy/:id?',function (req,res) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-
-  var pyshell = new PythonShell('classify_image.py');
+  console.log(req.params);
+  var options = {
+    mode: 'text',
+    scriptPath: '/Users/szh/WebstormProjects/spotifyAPITest',
+    args: [req.params.id]
+  };
+  var pyshell = new PythonShell('classify_with_openCV.py', options);
   pyshell.stdout.on('data',function(data){
+    // if(err) {
+    //   console.log("err");
+    // }
     if (data == 0){
       res.send('happy');
       console.log('happy face');
