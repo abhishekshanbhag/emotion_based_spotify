@@ -23,10 +23,10 @@ from keras.layers.convolutional import Convolution2D
 from keras.layers.convolutional import MaxPooling2D
 from keras.utils import np_utils
 from keras import backend as K
-K.set_image_dim_ordering('th')
 from boto.s3.connection import S3Connection
 from boto.s3.key import Key
 import sys
+K.set_image_dim_ordering('th')
 
 if(len(sys.argv) != 2):
 	sys.exit(1)
