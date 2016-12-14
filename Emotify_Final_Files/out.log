@@ -1,0 +1,724 @@
+Listening on 8888
+[0mGET /index.html [36m304 [0m2.889 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m1.119 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.837 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m1.204 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.550 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.585 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.574 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.604 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m5400.483 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET /index.html [36m304 [0m0.279 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m1.346 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.553 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.761 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.562 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.406 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m1.064 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.216 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [36m304 [0m4840.464 ms - -[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET /index.html [36m304 [0m0.406 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m1.693 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m1.271 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.320 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.247 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.704 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.734 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.766 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m5051.049 ms - 3[0m
+sad face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET /index.html [36m304 [0m0.275 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.395 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.318 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m1.250 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.989 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m1.036 ms - -[0m
+[0mGET /emotify.png [36m304 [0m1.049 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m1.067 ms - -[0m
+[0mGET /index.html [36m304 [0m0.248 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.658 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.787 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.273 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m1.272 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.534 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.166 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.195 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6167.995 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET /index.html [36m304 [0m0.255 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m1.839 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m1.910 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.428 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.242 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.573 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.642 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.712 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6610.047 ms - 3[0m
+sad face
+ignore
+[0mGET / [32m200 [0m1.258 ms - 4651[0m
+[0mGET /JS/emotify.js [32m200 [0m1.299 ms - 6132[0m
+[0mGET /emotify.png [32m200 [0m0.645 ms - 1336[0m
+[0mGET /Spotifylogo.png [32m200 [0m4.103 ms - 32331[0m
+[0mGET /snapBtn.png [32m200 [0m3.675 ms - 3247[0m
+[0mGET /againBtn.png [32m200 [0m7.990 ms - 2739[0m
+[0mGET /JS/search.js [32m200 [0m7.193 ms - 1531[0m
+[0mGET /JS/justifyLogin.js [32m200 [0m1.226 ms - 864[0m
+[0mGET /favicon.ico [33m404 [0m0.617 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.322 ms - -[0m
+[0mGET / [32m200 [0m0.386 ms - 4651[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6284.289 ms - 5[0m
+happy face
+ignore
+{ id: 'andrew.jay.levy' }
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+success
+[0mGET /login [36m302 [0m2.160 ms - 542[0m
+[0mGET /callback?code=AQC0qolnZQBIlgHL4EDvP2OlEBVjlkKWW6-YaGTN5UwgVFQV_m9ft3BWhIBHi95c9DM7X8d0kOb77FOIsA_ABc-0OvQUwKYbgyXRcDqg1KrKp49pRJmP2qj3LgVXxIGZuM30ZWfqePuprrmEpoWKbcPF1xA1RyqLNdhlzGVJi5QiFbNkp86sFnp3poUbL857Kv7KCxMkn9kD_QtzD65UybhIAWAX2KFI_RhPxtHi8Tu3sikSLMlKG980R3j2Dld2&state=YimouTI9LR6xu4qB [36m302 [0m206.488 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'aoshuang17@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/aoshuang' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/aoshuang',
+  id: 'aoshuang',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:aoshuang' }
+[0mGET /index.html [36m304 [0m0.255 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.256 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.955 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.888 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m7.042 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m12.305 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m12.411 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m6.868 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m3.163 ms - -[0m
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6546.247 ms - 3[0m
+sad face
+ignore
+[0mGET /logout [36m302 [0m0.963 ms - 136[0m
+[0mGET /index.html [36m304 [0m0.430 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.366 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.287 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.322 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.245 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.178 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.254 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.187 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /login [36m302 [0m0.555 ms - 542[0m
+[0mGET /callback?code=AQBZSZx1ACcOYfNN9z2ULFa0UisXp7Vd8S5MKHjjT6wgEYGjjfNscJpjeM56rICoeBibH37XmIpT60iWTsBSrGoXUhGjnH-oDnRzoITwrBS-8TouTufu5QpHuzQJ_DYQ3AVPYHN751EtJguuSyGyUknp3Zy8FBg0Y7GFV5FgF7G_vd3DbUkG3UhRMNXVeUjm3a-2iEETWPlVywCo41WTut_ym6jDA7MTRxToYRUVPwArUV6GVMRKVKUMbMonciau&state=nuaMKdeqHEfcwxh1 [36m302 [0m104.178 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'aoshuang17@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/aoshuang' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/aoshuang',
+  id: 'aoshuang',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:aoshuang' }
+[0mGET /index.html [36m304 [0m0.281 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m2.847 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m3.381 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m3.359 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m7.586 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m7.464 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m14.191 ms - -[0m
+[0mGET /emotify.png [36m304 [0m12.342 ms - -[0m
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6893.472 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mGET /logout [36m302 [0m0.527 ms - 136[0m
+[0mGET /index.html [36m304 [0m0.258 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.378 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.208 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.410 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.384 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.182 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.162 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.182 ms - -[0m
+[0mGET /login [36m302 [0m0.517 ms - 542[0m
+[0mGET /callback?code=AQAK_GyLW5iOw23M0k_AIyMvIb51yKAtnPMpfLEAdUQ9c6v58kKmTcqSR6OzEJ_Sb8t30m8QWyb4Ec0h4N_G9PofnKGynm2vGjjY-78_2sCQp3YeAD016fcBywMZjTw9WFWcSkrCIjzdEDqHx57q7IEW1IsrylwipKpO0z1Qxz8UDq_NNMJ3wIwpa166eG9dPZi80RBJisMcERIerReBkDGl2GyO_tP_xiLcooaCzYa3eXDkS1w1pZKhNNA-2zb6&state=kEqg3ll54dvsKRfH [36m302 [0m309.939 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'aoshuang17@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/aoshuang' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/aoshuang',
+  id: 'aoshuang',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:aoshuang' }
+[0mGET /index.html [36m304 [0m0.271 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.381 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m3.967 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.442 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.770 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m1.007 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.932 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.161 ms - -[0m
+{ id: 'aoshuang' }
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mGET /runpy/aoshuang [32m200 [0m5135.572 ms - 5[0m
+happy face
+ignore
+{ id: 'aoshuang' }
+success
+[0mGET /runpy/aoshuang [32m200 [0m6296.458 ms - 3[0m
+sad face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+{ id: 'aoshuang' }
+success
+[0mGET /runpy/aoshuang [36m304 [0m6190.557 ms - -[0m
+sad face
+ignore
+{ id: 'aoshuang' }
+success
+[0mGET /runpy/aoshuang [36m304 [0m6487.550 ms - -[0m
+sad face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+{ id: 'aoshuang' }
+success
+[0mGET /runpy/aoshuang [32m200 [0m6377.208 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m0.283 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.846 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m1.077 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m1.007 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.403 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.629 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.454 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.246 ms - -[0m
+[0mGET /login [36m302 [0m0.744 ms - 542[0m
+[0mGET /callback?code=AQAPCTYOeQFyN6mkxxPW9toa04RLjlVvr0Ol0yTTfbVsS7zPZ0Cjw-Nzka6qDoSLLcRyaW5zODPss9ucof1-ebfmf_HT0vNO44Clt5TAf1jEn_UeSITIo7JtinEDimo00El1w1my7uPVw51cZ3paoHhvcgJd9a6OfTv3IjU07XCZyy--fc8SwWeXY3nvzhghPYCewI4I6v507RB7YtBW76pXggl12dTG22UqMyy0BxGpfsjDC1LAXMQFrSFQDTmz&state=2x2w5rHvLwKIcdY8 [36m302 [0m183.858 ms - 136[0m
+[0mGET /index.html [36m304 [0m0.398 ms - -[0m
+{ country: 'US',
+  display_name: null,
+  email: 'aoshuang17@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/aoshuang' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/aoshuang',
+  id: 'aoshuang',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:aoshuang' }
+[0mGET /Spotifylogo.png [36m304 [0m0.268 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.367 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.309 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.510 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.751 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.417 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.264 ms - -[0m
+[0mGET /logout [36m302 [0m0.765 ms - 136[0m
+[0mGET /index.html [36m304 [0m0.255 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m1.516 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.310 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.530 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.571 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.563 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m1.215 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.401 ms - -[0m
+[0mGET /login [36m302 [0m0.625 ms - 542[0m
+[0mGET /callback?code=AQDcgBZ_2EthNfM-lL3V-XdsBTffO18zmn29lRli6RLkBSv870tVyd8V_82GgyMML4mpTDopqPKqXh7bQXgNJdO3O2QENIKVYpmYyvK6DpduTSZmAspvhiIwZzlPufGsKcVgvSiP2m_avn8nPhjssvjrFVsD3bFAsixpQ3IMUuDfIlYqBP5lok0u6sRIOdjkwHn9VuUF-iK8gWul9t_gSLCIpOXZFzrM6lNljcg3b-arJ_yKA_o7CSNxWxOAstAM&state=ghsFoDDCCeG0LwMg [36m302 [0m83.320 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'aoshuang17@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/aoshuang' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/aoshuang',
+  id: 'aoshuang',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:aoshuang' }
+[0mGET /index.html [36m304 [0m0.291 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.408 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.473 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.389 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.259 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.207 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.211 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.459 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6330.757 ms - 3[0m
+sad face
+ignore
+{ id: 'aoshuang' }
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET /runpy/aoshuang [32m200 [0m6141.499 ms - 3[0m
+sad face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m0.331 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.275 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m2.208 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.401 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.463 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m9.791 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.928 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.395 ms - -[0m
+[0mGET /login [36m302 [0m0.587 ms - 542[0m
+[0mGET /callback?code=AQBhZQ-5lQRy4RHcvCs89Q6z_zfHR7UqNPpDQ99IwNk64cns4fQaggHrZ_DhBdpvNRO8CRowI6ERLoRtbwdtfFAa2-RaKeIVFMOj4Q4sDfgKRG64fRJS-PfsmlCkntaYhjISjQAXdiOXD3xfMwIC5EZhY4x1NUlviK7o4W4YQoUlqX5y1vvuCYWC75kdvN3f6idjMKlRV1YbIIlRWqB08I3t2-MrLKAcY4OfDgJec_LhNPjRoSwnxdhtiD2BeenO&state=aF7M6C4uLoZCstTZ [36m302 [0m94.011 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'aoshuang17@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/aoshuang' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/aoshuang',
+  id: 'aoshuang',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:aoshuang' }
+[0mGET /index.html [36m304 [0m0.274 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.397 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.598 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.274 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.252 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.169 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.239 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.204 ms - -[0m
+{ id: 'aoshuang' }
+{ id: 'aoshuang' }
+success
+success
+[0mGET / [32m200 [0m0.524 ms - 4651[0m
+Listening on 8888
+{ id: 'aoshuang' }
+success
+[0mGET /runpy/aoshuang [32m200 [0m6354.517 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET /logout [36m302 [0m2.122 ms - 136[0m
+[0mGET /index.html [36m304 [0m0.946 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.809 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.408 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.525 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.192 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.199 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.337 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.256 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [36m304 [0m6156.253 ms - -[0m
+sad face
+ignore
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m7099.651 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [36m304 [0m3881.923 ms - -[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET /login [36m302 [0m1.407 ms - 542[0m
+[0mGET /callback?code=AQDdlgenc66dgiLNOoF3lVB68rQiIJvdmtfd5JBJi5yHrReTeT1adbdmv4KmEyZJEbQFJO3mqcjxGmkxDkThkSPlrzeXcSGEC_5XcCqndDRFCSNEqX8ZmDTAPlGgFuQ0pmKJPMYjQbHxWKZ6SxbBWS8VO8ApmP6IF9xJxVaaGHKiznswRGoyAp0YGbgV04kE5xLEbbzrV2U_tSetk7FlojROHuDksLY7Eq9yEQQyr4D7L7RXA03ry3RhPOdB2juJ&state=7OlBa8lIwOLVICEK [36m302 [0m254.567 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'andrew.jay.levy@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/andrew.jay.levy' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/andrew.jay.levy',
+  id: 'andrew.jay.levy',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:andrew.jay.levy' }
+[0mGET /index.html [36m304 [0m0.252 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.529 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.838 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.725 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.449 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.519 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.177 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.186 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [36m304 [0m5019.996 ms - -[0m
+happy face
+ignore
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6373.269 ms - 3[0m
+sad face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET / [32m200 [0m1.354 ms - 4651[0m
+[0mGET /Spotifylogo.png [32m200 [0m1.160 ms - 32331[0m
+[0mGET /snapBtn.png [32m200 [0m0.809 ms - 3247[0m
+[0mGET /againBtn.png [32m200 [0m1.438 ms - 2739[0m
+[0mGET /emotify.png [32m200 [0m0.588 ms - 1336[0m
+[0mGET /JS/emotify.js [32m200 [0m1.596 ms - 6132[0m
+[0mGET /JS/search.js [32m200 [0m0.540 ms - 1531[0m
+[0mGET /JS/justifyLogin.js [32m200 [0m0.381 ms - 864[0m
+[0mGET /login [36m302 [0m0.554 ms - 542[0m
+[0mGET /callback?code=AQAg-jKtZfHI94iO3muzessh1zkdMX24ChOSWMzK8uOfNWjM5ekzVH-zxp1MlCsOxODEJWtyQgFQ0rZE1qY2DYpXYS7SzSvl6KYBsYogEfclGRBnKpT0dTjWdZWjD5M7FyN0h86LHCIEpmGyf3PmKg85M6WPsfH2WbUVVmFsRdyJ7PYFMlDlUHsDYAmT7t6FXK9DE_h0I-NvEVtSw-wUFoa8TYhTpVo4VCxgnxq1hF1cL59kJxCAz66_Po5cjSUp&state=DrVVdcOK6pcw6fza [36m302 [0m225.600 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'aoshuang17@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/aoshuang' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/aoshuang',
+  id: 'aoshuang',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:aoshuang' }
+[0mGET /index.html [32m200 [0m0.411 ms - 4651[0m
+[0mGET /JS/emotify.js [32m200 [0m0.834 ms - 6132[0m
+[0mGET /Spotifylogo.png [32m200 [0m0.417 ms - 32331[0m
+[0mGET /snapBtn.png [32m200 [0m0.537 ms - 3247[0m
+[0mGET /againBtn.png [32m200 [0m0.615 ms - 2739[0m
+[0mGET /JS/search.js [32m200 [0m0.538 ms - 1531[0m
+[0mGET /JS/justifyLogin.js [32m200 [0m0.535 ms - 864[0m
+[0mGET /emotify.png [32m200 [0m0.734 ms - 1336[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.257 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m5044.978 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m0.261 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.469 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.825 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.551 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.541 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.514 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.539 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m1.001 ms - -[0m
+[0mGET /login [36m302 [0m0.520 ms - 542[0m
+[0mGET /callback?code=AQAs8BOngx3NSXFJZjC9n4DZh0WudBhB6BmFg1OJl51xmuuRK-fhYtdIxEldXyoNTUqBSdkuDt_CMoaH2KIT0FPnTIi1e_LFBizDCOk6x2gnlKUAu3xUI2VICRUDoM1_Gm8ZpWXbovsU3JrsJbHl4ICJec0gpHNXAHkAotc0ji1SqUt6EdhIuNGVY5h-PU7x7WhMio8wPZdJ1wdLXxKGusikE6GatZYqnp6J3SzHZoi9dDUBjiNZTfbFJIMv4nn3&state=kwolcZtB7OnHayYU [36m302 [0m123.446 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'andrew.jay.levy@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/andrew.jay.levy' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/andrew.jay.levy',
+  id: 'andrew.jay.levy',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:andrew.jay.levy' }
+[0mGET /index.html [36m304 [0m0.264 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.372 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.722 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.802 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.236 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.598 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.711 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.162 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [36m304 [0m5104.007 ms - -[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m0.278 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m4.721 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.398 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.329 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.256 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.209 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.205 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.377 ms - -[0m
+[0mGET /login [36m302 [0m0.485 ms - 542[0m
+[0mGET /callback?code=AQBk3nd4xWDK0H8BYII5r2YtSPZoZ5M-DEP33-qfBK935aAnTBoF6rfGm2GkmXeXoxH4-cBbCIhJVZxYWV7MoImAQr1ziGLHzaKihCcU_3VBi9G5qT7-oSPp70Ehbo8FQ08HDy4E09wpJ540xkz74Lnjy1WDuKYvdTZVIX-JkuCT0E4JubFtl58DKOB4EE1jEEKeIo-zCqi4CD1NWxRU7OG0kAyosPQysjSJRqwLtqtKnaMO5Wv_itIusN1ofcYH&state=QsXRyRVzwdkjp2s3 [36m302 [0m97.342 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'andrew.jay.levy@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/andrew.jay.levy' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/andrew.jay.levy',
+  id: 'andrew.jay.levy',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:andrew.jay.levy' }
+[0mGET /index.html [36m304 [0m0.355 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m2.216 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.270 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.976 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.872 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m1.892 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m2.980 ms - -[0m
+[0mGET /emotify.png [36m304 [0m3.334 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [36m304 [0m5081.518 ms - -[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m0.288 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m3.513 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m6.346 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m6.073 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.272 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.447 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.539 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.239 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [36m304 [0m5958.278 ms - -[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m1.240 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m3.150 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m3.216 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m3.099 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.234 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.598 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.459 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.210 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6384.223 ms - 3[0m
+sad face
+ignore
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6212.035 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m0.337 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m2.262 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m2.338 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m5.375 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.249 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.196 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.529 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.711 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6220.785 ms - 3[0m
+sad face
+ignore
+{ id: 'andrew.jay.levy' }
+Listening on 8888
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6444.510 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m1.326 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.486 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m1.237 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m0.552 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.763 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m1.457 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.712 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.766 ms - -[0m
+[0mGET /login [36m302 [0m2.349 ms - 542[0m
+[0mGET /callback?code=AQAsEPZ_svcFbDCfTlcdaLlaKMvUdhV08mrfYNo6hD8pyhPuPELMsp9myTrf0N390d7Mh3FlcNDXdNLqgwMItyz4jx5QfX_TkCjbRIp3DvntmLF-i2vrMpm0PIMu8cCSkkobGYUyz3S3DAiVO0zXnmgXPOcP0-DBAKFMOhl6huieSKKepXpEuqa5u2vps0k-sKmCgOfJDkHTfkTXOaoHzKwoqmjiUkDabvVaU-ywZkVZnTzOChn5OZHeyodVua0X&state=6BrsG04yv4rFvL7x [36m302 [0m165.796 ms - 136[0m
+[0mGET /index.html [36m304 [0m0.695 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.513 ms - -[0m
+{ country: 'US',
+  display_name: null,
+  email: 'songzh@bu.edu',
+  external_urls: { spotify: 'https://open.spotify.com/user/songzh' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/songzh',
+  id: 'songzh',
+  images: 
+   [ { height: null,
+       url: 'https://profile-images.scdn.co/images/userprofile/default/4c8004ae5603bb702c4e388599d6d1bf48f9ef04',
+       width: null } ],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:songzh' }
+[0mGET /JS/search.js [36m304 [0m0.570 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.381 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.703 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m1.196 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m1.145 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.523 ms - -[0m
+[0mGET /index.html [36m304 [0m0.254 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m1.823 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m2.075 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m1.918 ms - -[0m
+[0mGET /emotify.png [36m304 [0m1.423 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m2.142 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.502 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m1.567 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.434 ms - -[0m
+[0mGET /login [36m302 [0m0.546 ms - 542[0m
+[0mGET /callback?code=AQCHDQeFJxiFurjuCZ9i-oTgw4rLJHqFCgct9fpyOArM5o1CtUXr9rTJKiAmp2D-c2jWNspb-gP5nhpwsFUypqhPeOlnvOC5KxtOgdy5lSuAR1qdvakLBw6QAHnElw9fypRili_Ay9lG5THmvOJ6SbwGHOT0LDQUehSoMxmSNRfQyRUudoDO_9GRWEv0hJdg40U-I68ov4zpHBJ5r0xGdEl-Qz1qWVCK5If8fFqoDBzxocPa2dthliIpTnc4ke-l&state=wplVBUn2n9B4Mvs5 [36m302 [0m82.076 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'songzh@bu.edu',
+  external_urls: { spotify: 'https://open.spotify.com/user/songzh' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/songzh',
+  id: 'songzh',
+  images: 
+   [ { height: null,
+       url: 'https://profile-images.scdn.co/images/userprofile/default/4c8004ae5603bb702c4e388599d6d1bf48f9ef04',
+       width: null } ],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:songzh' }
+[0mGET /index.html [36m304 [0m0.264 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m2.014 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.869 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.420 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m1.346 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m1.634 ms - -[0m
+[0mGET /emotify.png [36m304 [0m1.029 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.483 ms - -[0m
+[0mGET / [36m304 [0m0.267 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.267 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m0.384 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.176 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m0.768 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m1.794 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.995 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.673 ms - -[0m
+[0mGET /login [36m302 [0m0.682 ms - 542[0m
+[0mGET /callback?code=AQBOBd1GGk2PbbrVMJ3DvVbvDxfwAOT1Aa1rnv0TI4UELzFsohwgpvHKMG6i4RD4yE6wfMBhW9uV9U591-bfa_q6IQw5XpCAHus9-DhR2idzT_jPivSkHhESs-d3gckpnSCIGc6vvqmPAh6l8AwwlJPgzQ4kZdV4hm2sac8HIY7PI3dICkZAaaJdzb4bDhGKV-UylDBzqE2TEK2NrLiWnxomU_2ioYF2l1jHEoVgDSognhD75jeH-gSCSc7AvlDl&state=7nsNdXYolftID3qq [36m302 [0m161.088 ms - 136[0m
+{ country: 'US',
+  display_name: null,
+  email: 'andrew.jay.levy@gmail.com',
+  external_urls: { spotify: 'https://open.spotify.com/user/andrew.jay.levy' },
+  followers: { href: null, total: 0 },
+  href: 'https://api.spotify.com/v1/users/andrew.jay.levy',
+  id: 'andrew.jay.levy',
+  images: [],
+  product: 'open',
+  type: 'user',
+  uri: 'spotify:user:andrew.jay.levy' }
+[0mGET /index.html [36m304 [0m0.259 ms - -[0m
+[0mGET /JS/emotify.js [36m304 [0m1.017 ms - -[0m
+[0mGET /JS/search.js [36m304 [0m1.048 ms - -[0m
+[0mGET /JS/justifyLogin.js [36m304 [0m0.397 ms - -[0m
+[0mGET /Spotifylogo.png [36m304 [0m0.493 ms - -[0m
+[0mGET /againBtn.png [36m304 [0m1.561 ms - -[0m
+[0mGET /snapBtn.png [36m304 [0m0.472 ms - -[0m
+[0mGET /emotify.png [36m304 [0m0.331 ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [36m304 [0m5216.521 ms - -[0m
+happy face
+ignore
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6735.084 ms - 3[0m
+sad face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m4881.587 ms - 5[0m
+happy face
+ignore
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6742.830 ms - 3[0m
+sad face
+ignore
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [36m304 [0m6554.937 ms - -[0m
+sad face
+ignore
+{ id: 'andrew.jay.levy' }
+success
+[0mGET /runpy/andrew.jay.levy [32m200 [0m6118.952 ms - 5[0m
+happy face
+ignore
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+success
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
+[0mPOST /upload [0m- [0m- ms - -[0m
