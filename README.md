@@ -3,6 +3,7 @@
 Emotify uses deep learning-based emotion recognition software to play mood-based playlists from Spotify.  The Emotify application can be found at www.emotify.rocks:8888.  Application requires the Firefox browser and a desktop or notebook computer.
 
 Build Instructions:
+
 1) The following software must be downloaded.
   - Keras deep learning software framework: https://keras.io/#installation
   - Theano deep learning software framework: http://deeplearning.net/software/theano/install.html#install
