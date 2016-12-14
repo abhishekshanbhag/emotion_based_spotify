@@ -13,5 +13,5 @@ Build Instructions:
   - numpy: https://docs.scipy.org/doc/numpy-1.10.1/user/install.html
   - Other (ask owners for details)
 
-2) Run app.js (Type "node app.js") file in Spotify API folder
+2) Run app.js (Type "node app.js") file within Emotify_Final_Files folder
 
