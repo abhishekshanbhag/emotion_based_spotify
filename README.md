@@ -7,7 +7,7 @@ Build Instructions:
 1) The following software must be downloaded.
   - Keras deep learning software framework: https://keras.io/#installation
   - Theano deep learning software framework: http://deeplearning.net/software/theano/install.html#install
-  - Amazon S3 Bucket (ask owners for details): www.aws.amazon.com
+  - Amazon S3 Bucket Keys (must request permission from owners)
   - openCV
   - node js
   - numpy: https://docs.scipy.org/doc/numpy-1.10.1/user/install.html
